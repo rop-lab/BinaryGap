@@ -18,5 +18,6 @@ function solution(N){
     // the number of bits between ones not
 }
 const N = (529);
-console.log(solution(N));
+console.log(solution(N)); 
+// Output : 4
             
