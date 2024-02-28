@@ -1,5 +1,6 @@
 // declare the function
 function solution(N) {
+    //convert to binary string
     const binaryStr = N.toString(2);
   
     // iterate through the variables
@@ -7,8 +8,8 @@ function solution(N) {
     let currentGap = 0;
     let counting = false;
   
-    for (let x of binaryStr) {
-      if (x === '0') {
+    for (let k of binaryStr) {
+      if (k === '0') {
         if (counting) {
           currentGap += 1;
         }
